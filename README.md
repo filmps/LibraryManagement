@@ -11,11 +11,11 @@
 - Install Entity Framework Core NuGet package
 
 Open Command :
-\ndotnet add package Microsoft.EntityFrameworkCore
-\ndotnet add package Microsoft.EntityFrameworkCore.Design
-\ndotnet add package Microsoft.EntityFrameworkCore.Sqlite
-\ndotnet ef migrations add InitialCreate
-\ndotnet ef database update
+dotnet add package Microsoft.EntityFrameworkCore
+dotnet add package Microsoft.EntityFrameworkCore.Design
+dotnet add package Microsoft.EntityFrameworkCore.Sqlite
+dotnet ef migrations add InitialCreate
+dotnet ef database update
 
 # Usage
 1. Unzip the file
