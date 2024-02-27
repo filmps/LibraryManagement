@@ -1,7 +1,4 @@
-# Project Title
-[TOCM]
-
-[TOC]
+# LibraryManagement Project
 
 # Features
 - Author Management
@@ -14,14 +11,14 @@
 - Install Entity Framework Core NuGet package
 
 Open Command :
-dotnet add package Microsoft.EntityFrameworkCore
-dotnet add package Microsoft.EntityFrameworkCore.Design
-dotnet add package Microsoft.EntityFrameworkCore.Sqlite
-dotnet ef migrations add InitialCreate
-dotnet ef database update
+\ndotnet add package Microsoft.EntityFrameworkCore
+\ndotnet add package Microsoft.EntityFrameworkCore.Design
+\ndotnet add package Microsoft.EntityFrameworkCore.Sqlite
+\ndotnet ef migrations add InitialCreate
+\ndotnet ef database update
 
 # Usage
-1. unzip the file
+1. Unzip the file
 2. cd LibraryManagement
 3. dotnet run
 4. Open a browser, navigate to http://localhost:5000
@@ -30,35 +27,35 @@ dotnet ef database update
 
 # Main Structure
 - 📂Data
-    - ApplicationDbContext.cs : 🟢DONE
-- 📂Controller  : 🟢DONE
-- 📂Model       : 🟢DONE
-- 📂ViewModels  : 🟢DONE
-- 📂Views       : 🟢DONE
+    - ApplicationDbContext.cs
+- 📂Controller
+- 📂Model     
+- 📂ViewModels
+- 📂Views     
     - 📂Author
-        - Create.cshtml  : 🟢DONE
-        - Details.cshtml : 🟢DONE
-        - Edit.cshtml    : 🟢DONE
-        - Index.cshtml   : 🟢DONE
+        - Create.cshtml
+        - Details.cshtml 
+        - Edit.cshtml   
+        - Index.cshtml 
     - 📂Book
-        - Create.cshtml  : 🟢DONE
-        - Details.cshtml : 🟢DONE
-        - Edit.cshtml    : 🟢DONE
-        - Index.cshtml   : 🟢DONE
+        - Create.cshtml 
+        - Details.cshtml
+        - Edit.cshtml    
+        - Index.cshtml   
     - 📂Branch
-        - Create.cshtml  : 🟢DONE
-        - Details.cshtml : 🟢DONE
-        - Edit.cshtml    : 🟢DONE
-        - Index.cshtml   : 🟢DONE
+        - Create.cshtml  
+        - Details.cshtml 
+        - Edit.cshtml    
+        - Index.cshtml   
     - 📂Customer
-        - Create.cshtml  : 🟢DONE
-        - Details.cshtml : 🟢DONE
-        - Edit.cshtml    : 🟢DONE
-        - Index.cshtml   : 🟢DONE
+        - Create.cshtml  
+        - Details.cshtml 
+        - Edit.cshtml    
+        - Index.cshtml   
     - 📂Shared
-        - _Layout.cshtml : 🟢DONE
-- 📂wwwroot      : 🟢DONE
-    - 📂css      : 🟢DONE
+        - _Layout.cshtml 
+- 📂wwwroot      
+    - 📂css      
 - 
-- 📑appsettings.json    : 🟢DONE
-- 📑Program.cs          : 🟢DONE
+- 📑appsettings.json   
+- 📑Program.cs         
