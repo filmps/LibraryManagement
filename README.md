@@ -28,7 +28,7 @@ Open Command :
 
 # Main Structure
 - 📂Data
-    - ApplicationDbContext.cs
+    - MyDbContext.cs
 - 📂Controller
 - 📂Model     
 - 📂ViewModels
